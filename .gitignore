@@ -1,0 +1,9 @@
+config.py
+*.pyc
+*.egg-info
+.DS_Store
+/env
+/.env
+/venv
+/.idea
+/__pycache__

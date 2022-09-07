@@ -1,6 +1,7 @@
 config.py
 *.pyc
 *.egg-info
+*.png
 .DS_Store
 /env
 /.env

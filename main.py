@@ -71,7 +71,7 @@ def graf_plt(cna, sql_graf, data):
 
         fig.suptitle(f'Кількість наймів кандидатів {kw} з досвідом до 1 р  включно')
         ax.bar(npen, ypoints)
-
+        plt.savefig(f'{kw}.png')
         plt.show()
 
 
@@ -86,7 +86,7 @@ def graf_sal_diff(cna, sql_graf, data):
     ax.hist(ypoints, 27)
     ax.minorticks_on()
     plt.grid()
-
+    plt.savefig('diff.png')
     plt.show()
 
 
